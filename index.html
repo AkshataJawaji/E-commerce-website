@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <title>E-Commerce Website</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#" class="logo">
+                 𝓼𝓱𝓸𝓹𝓲𝓯𝔂
+            </a>
+            
+            <div><span class="fa fa-search"></span>
+                <input name="Search" placeholder="Searching for products,brands and more" style="border: 0cap;width:500px">
+            </div>
+        
+            <div class="box">
+                <div class="cart-count">0</div>
+                <ion-icon name="cart" id="cart-icon"></ion-icon>
+            </div>
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+                <button class="btn-buy" onclick="checkout()">Place Order</button>
+                <ion-icon name="close" id="cart-close"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h2 class="title" style="font-size: xx-large; color:crimson;">𝓓𝓲𝓼𝓬𝓸𝓿𝓮𝓻 𝓣𝓱𝓮 𝓑𝓮𝓼𝓽 𝓟𝓻𝓸𝓭𝓾𝓬𝓽𝓼</h2>
+    <div class="shop-content">
+
+         <div class="products-box">
+                <div class="pic">
+                    <img src="Titan raga.webp" class="products-img">
+                </div>
+                <h2 class="products-title">Titan Raga watch</h2>
+                <span class="products-price">Rs.4999</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="puma.avif" class="products-img">
+                </div>
+                <h2 class="products-title"> UNISEX Puma sneakers</h2>
+                <span class="products-price">Rs.2499</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="Dot and key.avif" class="products-img">
+                </div>
+                <h2 class="products-title">Dot and Key Sunscreen</h2>
+                <span class="products-price">Rs.755</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="crocs.avif" class="products-img">
+                </div>
+                <h2 class="products-title">Crocs</h2>
+                <span class="products-price">Rs.4999</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="nike.png" class="products-img">
+                </div>
+                <h2 class="products-title">NIKE bags UNISEX</h2>
+                <span class="products-price">Rs.4599</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="6.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Trouser</h2>
+                <span class="products-price">Rs.800</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="7.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Sandisk Pendrive 64GB</h2>
+                <span class="products-price">Rs.550</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="8.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Apple iPhone 15 Pro Max</h2>
+                <span class="products-price">Rs.160000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="H&M.PNG" class="products-img">
+                </div>
+                <h2 class="products-title"> H&M Full sleeve jacket</h2>
+                <span class="products-price">Rs.2999</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="10.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Crocs</h2>
+                <span class="products-price">Rs.2000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="11.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Sun Glass</h2>
+                <span class="products-price">Rs.4000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="Giva.webp" class="products-img">
+                </div>
+                <h2 class="products-title">Necklace</h2>
+                <span class="products-price">170000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="13.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Chain Watch</h2>
+                <span class="products-price">Rs.800</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="14.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Sandisk MemoryCard 64GB</h2>
+                <span class="products-price">Rs.600</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="15.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Philips Power Bank</h2>
+                <span class="products-price">Rs.1500</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="16.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Camera</h2>
+                <span class="products-price">Rs.70000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="17.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Laptop</h2>
+                <span class="products-price">Rs.55000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="18.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Washing Machine</h2>
+                <span class="products-price">Rs.16000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="19.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">TV</h2>
+                <span class="products-price">Rs.55000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="products-box">
+                <div class="pic">
+                    <img src="20.jpg" class="products-img">
+                </div>
+                <h2 class="products-title">Lenovo Tab</h2>
+                <span class="products-price">Rs.15000</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./script.js">
+
+    </script> 
+   
+</body>
+</html>
